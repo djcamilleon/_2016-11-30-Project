@@ -104,19 +104,19 @@
     text-color: #000;
     font-size:20px;
     text-transform:uppercase;
-    font-weight:bold;
     flex-direction:column;
 }
 
 .submit-button {
     background: #000;
-    width:50px;
+    width:75px;
     height:30px;
     color:white;
-    font-size:10px;
+    font-size:12px;
     display:flex;
     justify-content:center;
     align-items:center;
+    font-weight:bold;
     }
 
 .form-section {
@@ -129,4 +129,10 @@
 
 .newsletter-text-padding-2 {
     padding-bottom: 20px;
+}
+
+.input-placeholder {
+    font-weight:bold;
+    font-size:12px;
+    /*font-color: black;*/
 }
